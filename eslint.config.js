@@ -28,6 +28,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      // ✅ Prevent trailing spaces
+      'no-trailing-spaces': ['error'],
     },
   },
 ]
